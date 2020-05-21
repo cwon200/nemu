@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title><% if(htmlWebpackPlugin.options.asset.phase !== 'REAL'){ %>(<%= htmlWebpackPlugin.options.asset.version %>)<% } %>LINE Blockchain Developers</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+  <link rel="stylesheet" type="text/css" href="css/service.<%= htmlWebpackPlugin.options.asset.cssVersion %>.css" />
+  <style>
+  .uio_wrap {
+    padding: 10px;
+    border: 2px solid #00c88f;
+    border-radius: 10px;
+    font-size: 0;
+    line-height: 0;
+  }
+
+  .uio_wrap+.uio_wrap {
+    margin: 15px 0 0;
+  }
+
+  .uio_wrap:last-child {
+    margin: 15px 0 100px;
+  }
+
+  .uio_tit {
+    display: block;
+    margin: 5px 0 20px;
+    font-size: 20px;
+    line-height: 22px;
+    color: #00c88f;
+  }
+
+  .radio_box+.radio_box {
+    margin-left: 10px;
+  }
+
+  [class^="button"]+[class^="button"] {
+    margin: 0 0 0 10px;
+  }
+
+  </style>
+</head>
+
+<body>
+  <div id="app">
+  </div>
+  <!-- built files will be auto injected -->
+</body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=<%= htmlWebpackPlugin.options.asset.ga %>"></script>
+-->
+</html>
