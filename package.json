@@ -19,7 +19,7 @@
     "build:real": "npm run clean && cross-env NODE_ENV=production APPLICATION_PHASE=REAL webpack --config build/webpack.prod.conf.js"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "es6-promise": "^4.2.4",
     "lottie-web": "^5.6.6",
     "mobile-device-detect": "^0.3.3",
